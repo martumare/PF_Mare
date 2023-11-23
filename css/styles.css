@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #FC814A;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.logo {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.logo i {
+    padding: 10px;
+    font-size: 25px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.carrito i {
+    font-size: 15px;
+    color: black;
+}
+
+/* Body */
+body { 
+    background-color: #E8E8E8;
+}
+
+
+/* Footer */
+footer {
+    background-color: #FC814A;
+}
+
+.redes-sociales {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.redes-sociales h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.redes-sociales ul {
+    list-style: none;
+    padding: 0;
+}
+
+.redes-sociales ul li {
+    display: inline-block;
+    margin: 0 10px;
+    
+}
+
+.redes-sociales ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+
+.informacion h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    color: black;
+    text-align: center;
+}
+
+.informacion p {
+    margin: 5px 0;
+    color: black;
+    font-size: 15px;
+}
+
+.newsletter {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.newsletter h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.newsletter .email {
+    width: 50%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.newsletter .submit {
+    background-color: #96939B;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.newsletter .submit:hover {
+    background-color: #333;
+}
+
+footer p {
+    text-align: center;
+    font-size: 0.9em;
+    color: black;
+    margin-top: 20px;
+}
+

@@ -1,0 +1,49 @@
+#servicios {
+    text-align: center;
+    padding: 50px 0;
+}
+
+#servicios h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.servicio {
+    max-width: 90%;
+    margin: 0 auto 30px;
+    text-align: left;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.servicio h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.servicio p {
+    color: #777;
+    line-height: 1.6;
+}
+
+.servicio img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.servicio button {
+    background-color: #96939B;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 10%;
+    border-radius: 5px;
+}
