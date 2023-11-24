@@ -1,3 +1,4 @@
+/*ESTILOS GENERALES DE HEADER, BODY Y FOOTER*/
 * {
     margin: 0;
     padding: 0;
@@ -136,4 +137,263 @@ footer p {
     font-size: 0.9em;
     color: black;
     margin-top: 20px;
+}
+
+/*ESTILOS DEL INDEX*/
+main h2 {
+    text-align: center;
+    font-size: 25px;
+    margin: 20px;
+    color: black;
+}
+
+#banner {
+    text-align: center;
+}
+
+#banner img {
+    max-width: 100%;
+}
+
+#productos-destacados {
+    text-align: center;
+}
+
+.producto {
+    display: inline-block;
+    width: 200px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.producto img {
+    max-width: 100%;
+}
+
+.producto h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #333;
+}
+
+.producto p {
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.producto button {
+    background-color: #96939B;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.producto button:hover {
+    background-color: #333;
+}
+
+/*ESTILOS DE CONTACTO*/
+#contacto {
+    padding: 50px 0;
+    text-align: center;
+    margin: 25px;
+}
+
+#contacto h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#contacto form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#contacto form label,
+#contacto form textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#contacto form input,
+#contacto form textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+#contacto form .submit {
+    background-color: #96939B;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#contacto form .submit:hover {
+    background-color: #333;
+}
+
+#mapa {
+    margin-top: 15px;
+}
+
+#historia {
+    margin: 50px;
+    text-align: left;
+}
+
+#historia h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#historia p {
+    color: #555;
+    line-height: 1.6;
+}
+
+/*ESTILOS DE SERVICIOS*/
+#servicios {
+    text-align: center;
+    padding: 50px 0;
+}
+
+#servicios h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.servicio {
+    max-width: 90%;
+    margin: 0 auto 30px;
+    text-align: left;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.servicio h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.servicio p {
+    color: #777;
+    line-height: 1.6;
+}
+
+.servicio img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.servicio button {
+    background-color: #96939B;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 10%;
+    border-radius: 5px;
+}
+
+/*ESTILOS DE PRODUCTOS*/
+#productos {
+    text-align: center;
+    padding: 50px 0;
+}
+
+#productos h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.producto {
+    display: inline-block;
+    width: 200px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.producto img {
+    max-width: 100%;
+}
+
+.producto h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #333;
+}
+
+.producto p {
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.producto button {
+    background-color: #96939B;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.producto button:hover {
+    background-color: #333;
+}
+
+/*ESTILOS DE PREGUNTAS*/
+#preguntas-frecuentes {
+    text-align: center;
+    padding: 50px 0;
+}
+
+#preguntas-frecuentes h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.pregunta {
+    max-width: 90%;
+    margin: 0 auto 30px;
+    text-align: left;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.pregunta h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.respuesta p {
+    color: #777;
+    line-height: 1.6;
 }
